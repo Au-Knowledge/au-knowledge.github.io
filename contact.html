@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Au Knowledge</title>
+    <meta name="description" content="Au Knowledge is a Knowledge Management firm.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="/images/Au_Knowledge_Logo.png">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <img src="images/banner_transparent.png" style="height:50%" alt="Logo for Au Knowledge">
+        </header>
+
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="products.html">WORK</a>
+            <a href="blog.html">BLOG</a>
+            <a href="contact.html" class="nav-active">CONTACT</a>
+        </nav>
+
+        <main>
+            <br>
+            <h1>Is Anybody Out There?!</h1>
+            <p>We'd be glad to hear from you! (Even if you're not an extraterestrial life form.)</p>
+            <div class="contact-form">
+                <form id="contact-form" method="post" action="contact-form-handler.php">
+                    <!--https://www.youtube.com/watch?v=Iv93yjdvkWI-->
+                    <input name="name" type="text" class="form-control" placeholder="What's Your Name?" required><br>
+                    <input name="email" type="text" class="form-control" placeholder="What's Your Email?" required><br>
+
+                    <textarea name="message" class="form-control" placeholder="Message" rows="4"
+                        required></textarea><br>
+                    <input type="submit" class="form-control submit" value="SEND MESSAGE">
+                </form>
+
+
+
+            </div>
+
+
+        </main>
+        <footer>
+            <p>matt@auknowledge.com</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Au Knowledge</title>
+    <meta name="description" content="Au Knowledge is a Knowledge Management firm.">
+    <link rel="stylesheet" href="style.css">
+    <script src="myScript.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="icon" type="image/png" href="/images/Au_Knowledge_Logo.png">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <img src="images/banner_transparent.png" style="height:50%" alt="Logo for Au Knowledge">
+        </header>
+
+        <nav>
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT</a>
+            <a href="products.html" class="nav-active">WORK</a>
+            <a href="blog.html">BLOG</a>
+            <a href="contact.html">CONTACT</a>
+        </nav>
+
+        <main>
+            <br>
+            <h1>Work Samples</h1>
+            <p>We offer a range of customized knowledge products and services. Check out some examples of our work
+                below.</p>
+
+
+            <script>
+                $(document).ready(function () {
+                    $("#NYS").click(function () {
+                        $("#wormhole").attr("src", "https://app.powerbi.com/view?r=eyJrIjoiMTdhY2VlMmYtNTFmNS00YjliLWE5OWEtZTk3NzlmNTIxYzYwIiwidCI6IjVhM2MyN2E1LTExYjEtNGI2ZS04MDk1LWI0ZjRhNDViMDljMSIsImMiOjN9");
+                    });
+                });
+
+                $(document).ready(function () {
+                    $("#Strength").click(function () {
+                        $("#wormhole").attr("src", "https://app.powerbi.com/view?r=eyJrIjoiZmEwNTZiMmUtOGIyYy00ZTQ1LTkzNGQtYzExYjZlYzNiZTZlIiwidCI6IjVhM2MyN2E1LTExYjEtNGI2ZS04MDk1LWI0ZjRhNDViMDljMSIsImMiOjN9");
+                    });
+                });
+            </script>
+
+            <button id="NYS" class="wormhole-button">Covid19</button>
+            <button id="Strength" class="wormhole-button">Strength</button>
+
+            <svg id="dataViz" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="38%" height="38%"
+                viewbox="0 0 100 100" enable-background="new 0 0 100 100" xml:space="preserve">
+                <g id="Background">
+                    <g>
+                        <rect x="1.5" y="1.5" width="97" height="97" />
+                        <path fill="#F3D18D" d="M97,3v94H3V3H97 M100,0H0v100h100V0L100,0z" />
+                    </g>
+                </g>
+
+                <g id="goldData">
+                    <g>
+                        <g>
+                            <path fill="#9D85BE" d="M75.982,74.68c-6.53,6.873-15.75,11.151-25.979,11.151c-19.791,0-35.835-16.037-35.835-35.828
+                       c0-13.834,7.844-25.838,19.322-31.808l4.956,12.234c-6.689,3.957-11.17,11.241-11.17,19.573c0,12.55,10.171,22.728,22.727,22.728
+                       c6.055,0,11.556-2.369,15.632-6.229L75.982,74.68z M70.753,20.783c9.13,6.494,15.078,17.162,15.078,29.22
+                       c0,8.361-2.859,16.052-7.655,22.146l-10.282-8.131c3.027-3.858,4.837-8.73,4.837-14.016c0-7.207-3.354-13.624-8.584-17.791
+                       L70.753,20.783z" />
+                            <path fill="#9D85BE" d="M50.004,14.169c6.522,0,12.646,1.747,17.917,4.795l-6.558,11.354c-3.341-1.936-7.22-3.04-11.359-3.04
+                       c-3.02,0-5.901,0.587-8.536,1.655l-4.921-12.149C40.699,15.099,45.242,14.169,50.004,14.169z" />
+                            <path fill="#F3D18D" d="M70.753,20.785c9.13,6.494,15.078,17.162,15.078,29.22c0,8.361-2.859,16.052-7.655,22.146L67.894,64.02
+                       c3.027-3.857,4.837-8.73,4.837-14.015c0-7.207-3.354-13.624-8.584-17.791L70.753,20.785z" />
+                        </g>
+                    </g>
+                    <path fill="#9D85BE" d="M33.626,18.112c5.805-2.972,12.053-4.208,18.133-3.896L51.095,27.31c-3.855-0.2-7.811,0.584-11.496,2.47
+               c-2.688,1.376-4.986,3.212-6.844,5.363l-9.917-8.572C25.767,23.179,29.387,20.282,33.626,18.112z" />
+                </g>
+                <g id="Layer_3">
+                    <path fill="#9D85BE"
+                        d="M31.068,50.001c7.893-15.436,29.67-16.008,37.863,0C60.738,66.01,38.961,65.43,31.068,50.001z" />
+                    <g>
+                        <path fill="#FFFFFF" d="M53.831,41.355c1.929,1.252,3.202,3.432,3.202,5.907c0,3.885-3.146,7.032-7.033,7.032
+                   s-7.04-3.146-7.04-7.032c0-0.141,0.007-0.272,0.014-0.405c0.518,0.475,1.217,0.769,1.978,0.769c1.622,0,2.93-1.313,2.93-2.929
+                   c0-1.419-1.006-2.607-2.349-2.873c0.195-0.161,0.399-0.314,0.615-0.454c-4.606,1.006-8.893,3.816-11.702,8.43
+                   c7.165,11.738,23.88,11.85,31.109,0C62.723,45.151,58.431,42.347,53.831,41.355z" />
+                    </g>
+                </g>
+            </svg>
+            <div id="responsive-wormhole" class="resp-container">
+
+
+
+
+                <iframe id="wormhole" class="resp-iframe" src=" ">
+                </iframe>
+
+
+
+            </div>
+
+        </main>
+
+        <footer>
+            <p>matt@auknowledge.com</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>
